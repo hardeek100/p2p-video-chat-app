@@ -119,7 +119,7 @@ const Room = ({ navigation, route }) => {
           </View>
           <View id="userControls" style={styles.container3}>
             <View id="buttons" style={styles.container4}>
-              <View style={styles.inviteButton}>
+              {/* <View style={styles.inviteButton}>
                 <Button title="Invite" />
               </View>
               <View style={styles.leaveButton}>
@@ -127,7 +127,7 @@ const Room = ({ navigation, route }) => {
               </View>
               <View style={styles.muteButton}>
                 <Button title="mute" />
-              </View>
+              </View> */}
               <View>
                 <TouchableOpacity style={{ backgroundColor: status }}>
                   <Text>****Status****</Text>

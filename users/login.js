@@ -50,7 +50,7 @@ const Login = ({ navigation }) => {
                   : null
               }
             />
-            <Button title = "Test" onPress ={ () => navigation.navigate("test")} />
+       
           </View>
         </View>
       </View>

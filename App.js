@@ -7,7 +7,7 @@ const Stack = createStackNavigator();
 
 import Room from './rooms/rooms';
 import Login from './users/login';
-import Test from './test/test';
+
 
 
 export default () =>{
@@ -17,7 +17,7 @@ export default () =>{
       
         <Stack.Screen name = "Login" component = {Login} />
         <Stack.Screen name = "Room" component = {Room} options={{headerShown: false }}/>
-        <Stack.Screen name = "test" component = {Test} />
+       
       </Stack.Navigator>
     </NavigationContainer>
   )
